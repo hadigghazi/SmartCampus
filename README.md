@@ -7,7 +7,7 @@
 
 >SmartCampus is a comprehensive university system designed to streamline student administration, enhance learning experiences, and facilitate effective communication.
 >
->SmartCampus provides a user-friendly platform for managing student information, payments, course and grade dashboards, and a learning management system. It includes advanced features that is represented by many AI driven and #D functionalities. Our goal is to enhance the educational experience through innovative technology and efficient management tools, ensuring a seamless and engaging experience for students, instructors and administrators.
+>SmartCampus provides a user-friendly platform for managing student information, payments, course and grade dashboards, and a learning management system. It includes advanced features that is represented by many AI driven and 3D functionalities. Our goal is to enhance the educational experience through innovative technology and efficient management tools, ensuring a seamless and engaging experience for students, instructors and administrators.
 
 ## User Stories
 
