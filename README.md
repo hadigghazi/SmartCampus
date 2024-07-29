@@ -35,8 +35,8 @@
 1. **Manage Accounts**  
    *As an administrator, I want to manage student and instructor accounts so that I can ensure accurate and up-to-date information is maintained in the system.*
 
-2. **Process Payments and Manage Financial Records**  
-   *As an administrator, I want to process payments and manage financial records so that I can handle tuition and other fees efficiently.*
+2. **Manage University Data**  
+   *As an administrator, I want to manage faculties, majors, courses and exams, to make sure that everyone recieve the information they need correctly.*
 
 3. **Generate Reports**  
    *As an administrator, I want to generate reports on student performance and course effectiveness so that I can make data-driven decisions to improve the educational experience.*
