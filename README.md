@@ -5,51 +5,37 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
->SmartCampus is a comprehensive university system designed to streamline student administration, enhance learning experiences, and facilitate effective communication.
->
->SmartCampus provides a user-friendly platform for managing student information, payments, course and grade dashboards, and a learning management system. It includes advanced features that is represented by many AI driven and #D functionalities. Our goal is to enhance the educational experience through innovative technology and efficient management tools, ensuring a seamless and engaging experience for students, instructors and administrators.
+>SmartCampus is a comprehensive university system designed to streamline student administration, enhance learning experiences, and facilitate effective communication. It provides a user-friendly platform for managing student information, payments, course and grade dashboards, and a learning management system. Advanced features include AI-driven functionalities and 3D interactions. Our goal is to enhance the educational experience through innovative technology and efficient management tools, ensuring a seamless and engaging experience for students, instructors, and administrators.
 
 ## User Stories
 
 ### Student
-1. **View Schedule and Grades**  
-   *As a student, I want to view my course schedule and grades so that I can stay organized and keep track of my academic performance.*
+1. *As a student, I want to view my course schedule and grades so that I can stay organized and keep track of my academic performance.*
 
-2. **AI Study Assistance**  
-   *As a student, I want to access AI functionalities to help me study and choose courses so that I can optimize my learning experience and make informed decisions.*
+2. *As a student, I want to access AI functionalities to help me study and choose courses so that I can optimize my learning experience and make informed decisions.*
 
-3. **Access 3D Library**  
-   *As a student, I want to access the 3D library system so that I can explore and utilize resources for my coursework.*
+3. *As a student, I want to access the 3D library system so that I can explore and utilize resources for my coursework.*
 
 ### Instructor
-1. **Manage Course Content and Assignments**  
-   *As an instructor, I want to create and manage course content and assignments so that I can effectively deliver my course material and evaluate student performance.*
+1. *As an instructor, I want to create and manage course content and assignments so that I can effectively deliver my course material and evaluate student performance.*
 
-2. **Connect with Students**  
-   *As an instructor, I want to connect with students so that I can provide support, answer questions, and offer guidance.*
+2. *As an instructor, I want to connect with students so that I can provide support, answer questions, and offer guidance.*
 
-3. **Access and Update Student Records**  
-   *As an instructor, I want to access and update student records so that I can monitor their progress and provide necessary support.*
+3. *As an instructor, I want to access and update student records so that I can monitor their progress and provide necessary support.*
 
 ### Administrator
-1. **Manage Accounts**  
-   *As an administrator, I want to manage student and instructor accounts so that I can ensure accurate and up-to-date information is maintained in the system.*
+1. *As an administrator, I want to manage student and instructor accounts so that I can ensure accurate and up-to-date information is maintained in the system.*
 
-2. **Process Payments and Manage Financial Records**  
-   *As an administrator, I want to process payments and manage financial records so that I can handle tuition and other fees efficiently.*
+2. *As an administrator, I want to process payments and manage financial records so that I can handle tuition and other fees efficiently.*
 
-3. **Generate Reports**  
-   *As an administrator, I want to generate reports on student performance and course effectiveness so that I can make data-driven decisions to improve the educational experience.*
+3. *As an administrator, I want to generate reports on student performance and course effectiveness so that I can make data-driven decisions to improve the educational experience.*
 
 ### Potential Student
-1. **Explore Courses and Programs**  
-   *As a potential student, I want to explore the courses and programs offered by the university so that I can make an informed decision about my education.*
+1. *As a potential student, I want to explore the courses and programs offered by the university so that I can make an informed decision about my education.*
 
-2. **Apply for Admission Online**  
-   *As a potential student, I want to apply for admission and submit necessary documents online so that I can complete the application process conveniently.*
+2. *As a potential student, I want to apply for admission and submit necessary documents online so that I can complete the application process conveniently.*
 
-3. **AI Major Selection**  
-   *As a potential student, I want to use AI to help me choose a major based on my preferences so that I can select a field of study that aligns with my interests and goals.*
+3. *As a potential student, I want to use AI to help me choose a major based on my preferences so that I can select a field of study that aligns with my interests and goals.*
 
 <br><br>
 <!-- Tech stack -->
