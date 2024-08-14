@@ -1,0 +1,6 @@
+[submodule "SmartCampus-Backend"]
+	path = SmartCampus-Backend
+	url = https://github.com/hadigghazi/SmartCampus-Backend.git
+[submodule "SmartCampus-Frontend"]
+	path = SmartCampus-Frontend
+	url = https://github.com/hadigghazi/SmartCampus-Frontend.git
