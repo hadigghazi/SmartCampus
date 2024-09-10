@@ -44,10 +44,7 @@
 
 3. *As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.*
 
-Certainly! Here’s the revised tech stack section with documentation links incorporated directly into the technology names:
-
----
-
+   
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
