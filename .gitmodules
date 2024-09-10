@@ -6,4 +6,4 @@
 	url = https://github.com/hadigghazi/SmartCampus-Frontend.git
 [submodule "SmartCampus-Chat"]
 	path = SmartCampus-Chat
-	url = https://github.com/hadigghazi/SmartCampus.git
+	url = https://github.com/hadigghazi/SmartCampus-Chat.git
