@@ -82,7 +82,7 @@
     </td>
     <td style="text-align: center;">
       <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
-       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+       <br /> <br /> <br />
       <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" /> 
     </td>
   </tr>
@@ -104,18 +104,10 @@ The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for 
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
-
-### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-
-### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+### Student Screens
+| 3D AI Instructor Screen  | Register screen |  Landing screen |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Instructor](./readme/assets/3DInstructor.gif) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 | Home screen  | Menu Screen | Order Screen |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
