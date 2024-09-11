@@ -71,9 +71,9 @@
 
 
 ### Mockups
-| Landing Page  | 3D AI Instructor Page |
+| Landing Page  | 3D AI Instructor Page / Chat Page |
 | ---| ---|
-| ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/AIInstructor.svg) |
+| ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/AIInstructor.svg) ![fsdaf](./readme/assets/Channels.svg) |
 
 <br><br>
 
