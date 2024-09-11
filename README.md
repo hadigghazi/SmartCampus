@@ -95,8 +95,8 @@
 
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
-
+<img src="./readme/assets/SmartCampus_db.svg"/>
+The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for more details
 
 <br><br>
 
