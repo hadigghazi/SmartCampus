@@ -85,7 +85,9 @@
        <br /> <br /> 
       <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" /> 
               <br /> <br /> 
-      <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" />
+      <img src="./readme/assets/AIInstructor.svg" alt="3D AI Instructor" style="width: 100%; max-width: 500px;" />  
+       <br /> <br /> 
+      <img src="./readme/assets/Channel.svg" alt="Chat" style="width: 100%; max-width: 500px;" />
     </td>
   </tr>
 </table>
