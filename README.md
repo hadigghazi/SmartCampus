@@ -5,58 +5,69 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
->SmartCampus is a comprehensive university system designed to streamline student administration, enhance learning experiences, and facilitate effective communication. It provides a user-friendly platform for managing student information, payments, course and grade dashboards, and a learning management system. Advanced features include AI-driven functionalities and 3D interactions. Our goal is to enhance the educational experience through innovative technology and efficient management tools, ensuring a seamless and engaging experience for students, instructors, and administrators.
+>SmartCampus is a robust, all-in-one university system designed to revolutionize student administration and enhance the learning experience. With a comprehensive suite of features, it seamlessly handles everything from student information and payments to course management, grading, and learning resources. The platform’s cutting-edge AI capabilities offer personalized experiences, such as tailored major and course recommendations, interactive 3D AI instructor, and intelligent content generation. SmartCampus fosters engagement through integrated communication tools, including dedicated course channels and live chats, providing a dynamic and efficient environment for students, instructors, and administrators alike.
 
 ## User Stories
 
 ### Student
-1. *As a student, I want to view my course schedule and grades so that I can stay organized and keep track of my academic performance.*
+1. *As a student, I want to access my course schedule, materials, assignments, grades, exams, academic history, and fees in one place so that I can stay organized and efficiently manage my academic responsibilities.*
 
-2. *As a student, I want to access AI functionalities to help me study and choose courses so that I can optimize my learning experience and make informed decisions.*
+2. *As a student, I want to interact with a 3D AI instructor for personalized study assistance and receive AI-driven recommendations for courses and AI-generated practice questions to optimize my learning experience.*
 
-3. *As a student, I want to access the 3D library system so that I can explore and utilize resources for my coursework.*
+3. *As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.*
 
 ### Instructor
-1. *As an instructor, I want to create and manage course content and assignments so that I can effectively deliver my course material and evaluate student performance.*
+1. *As an instructor, I want to create, manage, and grade course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.*
 
-2. *As an instructor, I want to connect with students so that I can provide support, answer questions, and offer guidance.*
+2. *As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.*
 
-3. *As an instructor, I want to access and update student records so that I can monitor their progress and provide necessary support.*
+3. *As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.*
 
-### Administrator
-1. *As an administrator, I want to manage student and instructor accounts so that I can ensure accurate and up-to-date information is maintained in the system.*
+### Admin
+1. *As an admin, I want to manage student and instructor accounts, including handling course registrations, so that I can ensure accurate and up-to-date information in the system.*
 
-2. *As an administrator, I want to process payments and manage financial records so that I can handle tuition and other fees efficiently.*
+2. *As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.*
 
-3. *As an administrator, I want to generate reports on student performance and course effectiveness so that I can make data-driven decisions to improve the educational experience.*
+3. *As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.*
 
-### Potential Student
-1. *As a potential student, I want to explore the courses and programs offered by the university so that I can make an informed decision about my education.*
+### Super Admin
+1. *As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses so that I can maintain and optimize the university’s structure and academic offerings.*
 
-2. *As a potential student, I want to apply for admission and submit necessary documents online so that I can complete the application process conveniently.*
+2. *As a super admin, I want to manage admin accounts and salaries, set global payment policies, and oversee instructor payroll to ensure efficient system-wide operations.*
 
-3. *As a potential student, I want to use AI to help me choose a major based on my preferences so that I can select a field of study that aligns with my interests and goals.*
+3. *As a super admin, I want to manage and publish important announcements and news across the platform so that I can keep all users informed of critical updates and events.* 
 
+### Prospective Student
+1. *As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.*
+
+2. *As a prospective student, I want to apply for admission, submit necessary information online, and receive support through chat with student affairs so that I can manage the application process and get answers to any questions.*
+
+3. *As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.*
+
+   
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+### SmartCampus is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- **[React](https://reactjs.org/)**: The front-end library used for building dynamic and responsive user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)**: Enhances the development process with type safety and improved code quality in the React application.
+- **[RTK Query](https://redux-toolkit.js.org/rtk-query/overview)**: Facilitates data fetching, caching, and global state management in the application.
+- **[Laravel](https://laravel.com/docs)**: The back-end framework handling server-side logic, database interactions, and API management.
+- **[MySQL](https://dev.mysql.com/doc/)**: The relational database management system used for storing and managing application data.
+- **[OpenAI](https://platform.openai.com/docs)**: Provides AI-driven functionalities for personalized recommendations and intelligent content generation.
+- **[Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) & [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started)**: Employed for creating and rendering immersive 3D features within the application.
+- **[Firebase](https://firebase.google.com/docs)**: Used for real-time chat and communication features, including dedicated course channels.
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed SmartCampus using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/jsEC9MgbFvVbYnWYII3Gyu/SmartCampus?node-id=0-1&node-type=canvas&t=iTyTBVRnBjC7e2m9-0)
 
 
 ### Mockups
@@ -101,9 +112,9 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- This project leverages advanced AI capabilities through the OpenAI API to enhance user interactions and experiences. By integrating AI-driven features, we provide personalized course and major recommendations, generate practice questions from course materials, and offer support through an interactive 3D AI instructor. These innovations ensure a tailored and engaging educational experience, optimizing learning and decision-making processes.
 
 <br><br>
 
