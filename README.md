@@ -71,7 +71,7 @@
 
 
 ### Mockups
-| Landing Page  | Student Dashboard / Course Details |
+| Public Landing Page  | Student Dashboard / Course Details |
 | ---| ---|
 | ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/StudentDashboard.svg) ![fsdaf](./readme/assets/Course.svg) |
 
