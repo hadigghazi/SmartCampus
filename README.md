@@ -72,10 +72,12 @@
 
 ### Mockups
 <table>
+   <tr>
    <th>
       <td>Landing Page</td>
       <td>Student Dashboard / Course Details</td>
    </th>
+   </tr>
   <tr>
     <td style="width: 50%; text-align: center;">
       <img src="./readme/assets/LandingPage.svg" alt="Landing" style="width: 100%; max-width: 500px;" />
