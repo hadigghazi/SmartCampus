@@ -73,7 +73,8 @@
 ### Mockups
 | Home screen  | Menu Screen | Order Screen |
 | ---| ---| ---|
-| ![Landing](./readme/assets/LandingPage.svg) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Landing](./readme/assets/LandingPage.svg)<img src="./readme/title4.svg"/>
+ | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
 
