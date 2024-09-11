@@ -80,9 +80,8 @@
     <td style="text-align: center;">
       <img src="./readme/assets/LandingPage.svg" alt="Landing" style="width: 100%; max-width: 500px;" />
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: center; display: flex; flex-direction: column; justify-content: space-between">
       <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
-      <br />
       <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" />
     </td>
   </tr>
