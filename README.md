@@ -71,24 +71,9 @@
 
 
 ### Mockups
-<table>
-   <tr>
-   <th>
-      <td>Landing Page</td>
-      <td>Student Dashboard / Course Details</td>
-   </th>
-   </tr>
-  <tr>
-    <td style="width: 50%; text-align: center;">
-      <img src="./readme/assets/LandingPage.svg" alt="Landing" style="width: 100%; max-width: 500px;" />
-    </td>
-    <td style="width: 50%; text-align: center;">
-      <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
-      <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" />
-    </td>
-  </tr>
-</table>
-
+| Public Landing Page  | Student Dashboard / Course |
+| ---| ---|
+| ![Landing](./readme/assets/LandingPage.svg) | ![Student Dashboard](./readme/assets/StudentDashboard.svg) ![Course](./readme/assets/Course.svg) |
 
 <br><br>
 
