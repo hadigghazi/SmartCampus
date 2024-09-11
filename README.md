@@ -71,9 +71,21 @@
 
 
 ### Mockups
-| Public Landing Page  | Student Dashboard / Course Details |
-| ---| ---|
-| ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/StudentDashboard.svg) ![fsdaf](./readme/assets/Course.svg) |
+<table>
+  <tr>
+    <td style="width: 50%; text-align: center;">
+      <img src="./readme/assets/LandingPage.svg" alt="Landing" style="width: 100%; max-width: 500px;" />
+      <p>Public Landing Page</p>
+    </td>
+    <td style="width: 50%; text-align: center;">
+      <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
+      <p>Student Dashboard</p>
+      <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" />
+      <p>Course Details</p>
+    </td>
+  </tr>
+</table>
+
 
 <br><br>
 
