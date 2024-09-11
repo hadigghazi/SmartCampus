@@ -82,7 +82,9 @@
     </td>
     <td style="text-align: center;">
       <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
-       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+       <br /> <br /> 
+      <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" /> 
+              <br /> <br /> 
       <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" />
     </td>
   </tr>
