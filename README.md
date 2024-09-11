@@ -73,7 +73,7 @@
 ### Mockups
 | Landing Page  | Student Dashboard |
 | ---| ---|
-| ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/Student Dashboard.svg) |
+| ![Landing](./readme/assets/LandingPage.svg)| ![fsdaf](./readme/assets/StudentDashboard.svg) |
 
 <br><br>
 
