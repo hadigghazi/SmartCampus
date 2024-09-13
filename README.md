@@ -109,10 +109,20 @@
 <img src="./readme/title6.svg"/>
 
 ### Student Screens
-| 3D AI Instructor Screen  | Course Evaluation Report |
+| 3D AI Instructor Screen  | AI/ML Course Evaluation Report |
 | ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.gif) | ![Evaluation](./readme/assets/MLReport.gif) |
 | ![Instructor](./readme/assets/3DInstructor.png) | ![Evaluation](./readme/assets/MLReport.png) |
+
+| AI Generated Practice Questions  | AI Generated Major Suggestions |
+| ---| ---|
+| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Evaluation](./readme/assets/MajorSuggest.gif) |
+| ![Questions](./readme/assets/GenerateQuestions.png) | ![Evaluation](./readme/assets/MajorSuggest.png) |
+
+| Life On Campus Screen | AI Generated Course Suggestions |
+| ---| ---|
+| ![Instructor](./readme/assets/life.gif) | ![Evaluation](./readme/assets/CourseSuggest.gif) |
+| ![Instructor](./readme/assets/life.png) | ![Evaluation](./readme/assets/CourseSuggest.png) |
 
 | AI Generated Questions  | AI Generated Major Suggestions |
 | ---| ---|
