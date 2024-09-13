@@ -112,8 +112,18 @@
 | 3D AI Instructor Screen  | Course Evaluation Report |
 | ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.gif) | ![Evaluation](./readme/assets/MLReport.gif) |
+
 | 3D AI Instructor Screen  | Course Evaluation Report |
+| ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.png) | ![Evaluation](./readme/assets/MLReport.png) |
+
+| AI Generated Questions  | AI Generated Major Suggestions |
+| ---| ---|
+| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Evaluation](./readme/assets/MajorSuggest.gif) |
+
+| AI Generated Questions  | AI Generated Major Suggestions |
+| ---| ---|
+| ![Questions](./readme/assets/GenerateQuestions.png) | ![Evaluation](./readme/assets/MajorSuggest.png) |
 
 <br><br>
 
