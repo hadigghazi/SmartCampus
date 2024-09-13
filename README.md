@@ -113,7 +113,6 @@
 | ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.gif) | ![Evaluation](./readme/assets/MLReport.gif) |
 | 3D AI Instructor Screen  | Course Evaluation Report |
-| ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.png) | ![Evaluation](./readme/assets/MLReport.png) |
 
 <br><br>
