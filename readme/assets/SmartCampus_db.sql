@@ -481,6 +481,31 @@ CREATE TABLE `semesters` (
   `deleted_at` timestamp
 );
 
+CREATE TABLE `course_evaluations` (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `student_id` int,
+  `teaching_number` int,
+  `teaching` varchar(255),
+  `coursecontent_number` int,
+  `coursecontent` varchar(255),
+  `examination_number` int,
+  `examination` varchar(255),
+  `labwork_number` int,
+  `labwork` varchar(255),
+  `library_facilities_number` int,
+  `library_facilities` varchar(255),
+  `extracurricular_number` int,
+  `extracurricular` varchar(255),
+  `course_instructor_id` int,
+  `created_at` timestamp,
+  `updated_at` timestamp,
+  `deleted_at` timestamp
+);
+
+ALTER TABLE `course_evaluations` ADD FOREIGN KEY (`student_id`) REFERENCES `students` (`id`);
+
+ALTER TABLE `course_evaluations` ADD FOREIGN KEY (`course_instructor_id`) REFERENCES `course_instructors` (`id`);
+
 ALTER TABLE `students` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
 
 ALTER TABLE `students` ADD FOREIGN KEY (`major_id`) REFERENCES `majors` (`id`);
