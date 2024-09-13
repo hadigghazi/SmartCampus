@@ -124,11 +124,6 @@
 | ![Instructor](./readme/assets/life.gif) | ![Evaluation](./readme/assets/CourseSuggest.gif) |
 | ![Instructor](./readme/assets/life.png) | ![Evaluation](./readme/assets/CourseSuggest.png) |
 
-| AI Generated Questions  | AI Generated Major Suggestions |
-| ---| ---|
-| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Evaluation](./readme/assets/MajorSuggest.gif) |
-| ![Questions](./readme/assets/GenerateQuestions.png) | ![Evaluation](./readme/assets/MajorSuggest.png) |
-
 <br><br>
 
 
