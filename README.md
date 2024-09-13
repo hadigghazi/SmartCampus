@@ -109,11 +109,12 @@
 <img src="./readme/title6.svg"/>
 
 ### Student Screens
-| 3D AI Instructor Screen  | Register screen |  Landing screen |
-| ---| ---| ---|
-| ![Instructor](./readme/assets/3DInstructor.gif) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| 3D AI Instructor Screen  | Course Evaluation Report |
+| ---| ---|
+| ![Instructor](./readme/assets/3DInstructor.gif) | ![Evaluation](./readme/assets/MLReport.gif) |
+| 3D AI Instructor Screen  | Course Evaluation Report |
+| ---| ---|
+| ![Instructor](./readme/assets/3DInstructor.png) | ![Evaluation](./readme/assets/MLReport.png) |
 
 <br><br>
 
