@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
->SmartCampus is a robust, all-in-one university system designed to revolutionize student administration and enhance the learning experience. With a comprehensive suite of features, it seamlessly handles everything from student information and payments to course management, grading, and learning resources. The platform’s cutting-edge AI capabilities offer personalized experiences, such as tailored major and course recommendations, interactive 3D AI instructor, and intelligent content generation. SmartCampus fosters engagement through integrated communication tools, including dedicated course channels and live chats, providing a dynamic and efficient environment for students, instructors, and administrators alike.
+>SmartCampus is a robust, all-in-one university system designed to revolutionize student administration and enhance the learning experience. With a comprehensive suite of features, it seamlessly handles everything from student information and payments to course management, grading, and learning resources. The platform’s cutting-edge AI capabilities offer personalized experiences, such as tailored major and course recommendations, an interactive 3D AI instructor, and intelligent content generation. SmartCampus also integrates machine learning to assess course success based on student evaluations, providing visual insights through detailed graphs, and utilizes AI to deliver comprehensive analysis of these results. The platform fosters engagement through integrated communication tools, including dedicated course channels and live chats, creating a dynamic and efficient environment for students, instructors, and administrators alike.
 
 ## User Stories
 
@@ -31,11 +31,11 @@
 3. *As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.*
 
 ### Super Admin
-1. *As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses so that I can maintain and optimize the university’s structure and academic offerings.*
+1. *As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses, as well as managing admin accounts, salaries, and global payment policies, so that I can maintain and optimize the university’s structure and ensure efficient operations.*
 
-2. *As a super admin, I want to manage admin accounts and salaries, set global payment policies, and oversee instructor payroll to ensure efficient system-wide operations.*
+2. *As a super admin, I want to oversee instructor payroll and publish important news and announcements across the platform and via email, targeted by the recipient's role, to keep all users informed of critical updates and ensure smooth payroll management.*
 
-3. *As a super admin, I want to manage and publish important announcements and news across the platform so that I can keep all users informed of critical updates and events.* 
+3. *As a super admin, I want to generate detailed reports using machine learning and AI for comprehensive analysis of course evaluations, and be able to download these reports as PDFs to provide insights on course success and other performance metrics.*
 
 ### Prospective Student
 1. *As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.*
@@ -54,11 +54,15 @@
 - **[React](https://reactjs.org/)**: The front-end library used for building dynamic and responsive user interfaces.
 - **[TypeScript](https://www.typescriptlang.org/)**: Enhances the development process with type safety and improved code quality in the React application.
 - **[RTK Query](https://redux-toolkit.js.org/rtk-query/overview)**: Facilitates data fetching, caching, and global state management in the application.
+- **[Zustand](https://github.com/pmndrs/zustand)**: Utilized for global state management in the chat application, providing a streamlined state management solution.
 - **[Laravel](https://laravel.com/docs)**: The back-end framework handling server-side logic, database interactions, and API management.
 - **[MySQL](https://dev.mysql.com/doc/)**: The relational database management system used for storing and managing application data.
 - **[OpenAI](https://platform.openai.com/docs)**: Provides AI-driven functionalities for personalized recommendations and intelligent content generation.
 - **[Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene) & [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started)**: Employed for creating and rendering immersive 3D features within the application.
 - **[Firebase](https://firebase.google.com/docs)**: Used for real-time chat and communication features, including dedicated course channels.
+- **[FastAPI](https://fastapi.tiangolo.com/)**: A modern web framework used with Python to create endpoints for interacting with the machine learning model.
+- **[scikit-learn](https://scikit-learn.org/stable/)**: Utilized for machine learning tasks, including model training and predictions.
+- **[Matplotlib](https://matplotlib.org/)**: Employed for data visualization, providing graphical representations of analysis results.
 
 <br><br>
 <!-- UI UX -->
@@ -96,7 +100,7 @@
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
 <img src="./readme/assets/SmartCampus_db.svg"/>
-The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for more details
+>The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for more details.
 
 <br><br>
 
@@ -119,7 +123,7 @@ The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for 
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
 
-- This project leverages advanced AI capabilities through the OpenAI API to enhance user interactions and experiences. By integrating AI-driven features, we provide personalized course and major recommendations, generate practice questions from course materials, and offer support through an interactive 3D AI instructor. These innovations ensure a tailored and engaging educational experience, optimizing learning and decision-making processes.
+- This project leverages advanced AI capabilities through the OpenAI API and machine learning technologies to enhance user interactions and experiences. We integrate AI-driven features to provide personalized course and major recommendations, generate practice questions from course materials, and offer support through an interactive 3D AI instructor. Additionally, machine learning is employed to assess course success based on evaluations, visualize data with graphs, and provide comprehensive analysis through detailed reports. These innovations ensure a tailored and engaging educational experience, optimizing learning, decision-making processes, and performance insights.
 
 <br><br>
 
