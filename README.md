@@ -116,13 +116,18 @@
 
 | AI Generated Practice Questions  | AI Generated Major Suggestions |
 | ---| ---|
-| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Evaluation](./readme/assets/MajorSuggest.gif) |
-| ![Questions](./readme/assets/GenerateQuestions.png) | ![Evaluation](./readme/assets/MajorSuggest.png) |
+| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Majors](./readme/assets/MajorSuggest.gif) |
+| ![Questions](./readme/assets/GenerateQuestions.png) | ![Majors](./readme/assets/MajorSuggest.png) |
 
 | Life On Campus Screen | AI Generated Course Suggestions |
 | ---| ---|
-| ![Instructor](./readme/assets/life.gif) | ![Evaluation](./readme/assets/CourseSuggest.gif) |
-| ![Instructor](./readme/assets/life.png) | ![Evaluation](./readme/assets/CourseSuggest.png) |
+| ![Life](./readme/assets/life.gif) | ![Courses](./readme/assets/CourseSuggest.gif) |
+| ![Life](./readme/assets/life.png) | ![Courses](./readme/assets/CourseSuggest.png) |
+
+| Chat Screen | Channel Screen |
+| ---| ---|
+| ![Chat](./readme/assets/chat.gif) | ![Channel](./readme/assets/channel.gif) |
+| ![Chat](./readme/assets/chat.png) | ![Channel](./readme/assets/channel.png) |
 
 <br><br>
 
