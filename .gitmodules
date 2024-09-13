@@ -7,3 +7,6 @@
 [submodule "SmartCampus-Chat"]
 	path = SmartCampus-Chat
 	url = https://github.com/hadigghazi/SmartCampus-Chat.git
+[submodule "SmartCampus-Evaluations"]
+	path = SmartCampus-Evaluations
+	url = https://github.com/hadigghazi/SmartCampus-Evaluations.git
