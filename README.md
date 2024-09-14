@@ -219,7 +219,7 @@ Ensure you have the following installed on your machine:
    - Another for the Chat App (SmartCampus-Chat) to handle chat functionality.
 
    **Frontend Firebase Setup:**
-   - Go to [Firebase Console](https://console.firebase.google.com/), create a project, and set up the Firebase Realtime Database and Authentication for course channels.
+   - Go to [Firebase Console](https://console.firebase.google.com/), create a project, and set up the Firebase Realtime Database and Storage for course channels.
    - Copy your Firebase API key and other necessary credentials into the `.env` file in `SmartCampus-Frontend`:
 
      ```env
@@ -227,7 +227,8 @@ Ensure you have the following installed on your machine:
      ```
 
    **Chat Firebase Setup:**
-   - Similarly, create a new project for the Chat App, and set up Firebase for handling chat.
+   - Similarly, create a new project for the Chat App and configure Firebase to manage chat functionalities. In this case, Firebase authentication is used because chat 
+    feature needs to be accessible even to users who are not authenticated within the system.
    - Copy the Firebase API key into the `.env` file in `SmartCampus-Chat`:
 
      ```env
