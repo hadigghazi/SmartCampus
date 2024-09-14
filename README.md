@@ -163,30 +163,188 @@
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up **SmartCampus** locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [Python 3](https://www.python.org/)
+- [PHP](https://www.php.net/manual/en/install.php) (version 8.1 or higher)
+- [Composer](https://getcomposer.org/download/) for managing Laravel dependencies
+- [MySQL](https://dev.mysql.com/downloads/mysql/) for database management
+- [Mailtrap Account](https://mailtrap.io/) for email services during development
+- [Firebase Account](https://console.firebase.google.com/) for both the **Frontend** and **Chat** applications (you will need to create Firebase projects)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. **Clone the repository with submodules:**
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   ```bash
+   git clone --recurse-submodules https://github.com/hadigghazi/SmartCampus.git
+   cd SmartCampus
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+2. **Install dependencies:**
+
+   For each submodule, navigate to its directory and install the dependencies.
+
+   - Frontend (`SmartCampus-Frontend`):
+     ```bash
+     cd SmartCampus-Frontend
+     npm install
+     ```
+   - Chat App (`SmartCampus-Chat`):
+     ```bash
+     cd ../SmartCampus-Chat
+     npm install
+     ```
+   - Backend (`SmartCampus-Backend`):
+     ```bash
+     cd ../SmartCampus-Backend
+     composer install
+     ```
+   - Evaluation API (`SmartCampus-Evaluation`):
+     ```bash
+     cd ../SmartCampus-Evaluation/course-evaluation
+     pip install -r requirements.txt
+     ```
+
+3. **Firebase Setup:**
+
+   You will need to create two Firebase projects:
+
+   - One for the Frontend (SmartCampus-Frontend) to manage course channels.
+   - Another for the Chat App (SmartCampus-Chat) to handle chat functionality.
+
+   **Frontend Firebase Setup:**
+   - Go to [Firebase Console](https://console.firebase.google.com/), create a project, and set up the Firebase Realtime Database and Authentication for course channels.
+   - Copy your Firebase API key and other necessary credentials into the `.env` file in `SmartCampus-Frontend`:
+
+     ```env
+     VITE_FIREBASE_KEY=your_firebase_api_key
+     ```
+
+   **Chat Firebase Setup:**
+   - Similarly, create a new project for the Chat App, and set up Firebase for handling chat.
+   - Copy the Firebase API key into the `.env` file in `SmartCampus-Chat`:
+
+     ```env
+     VITE_API_KEY=your_firebase_chat_api_key
+     ```
+
+4. **Mailtrap Setup:**
+
+   For the announcements email functionality, you can use Mailtrap (used for development and testing):
+
+   - Create an account at [Mailtrap](https://mailtrap.io/).
+   - Copy the SMTP credentials and update the `.env` file in `SmartCampus-Backend`:
+
+     ```env
+     MAIL_MAILER=smtp
+     MAIL_HOST=smtp.mailtrap.io
+     MAIL_PORT=2525
+     MAIL_USERNAME=your_mailtrap_username
+     MAIL_PASSWORD=your_mailtrap_password
+     MAIL_ENCRYPTION=tls
+     MAIL_FROM_ADDRESS=admin@smartcampus.com
+     MAIL_FROM_NAME="SmartCampus"
+     ```
+
+5. **Configure Environment Files:**
+
+   Ensure that your `.env` files in both the frontend and backend have the correct URLs and API keys set up:
+
+   - **Frontend `.env` (SmartCampus-Frontend):**
+
+     ```env
+     VITE_BASE_URL=http://localhost:8000/api
+     VITE_CHAT_URL=http://localhost:3001
+     VITE_FAST_API_URL=http://localhost:5000
+     VITE_FIREBASE_KEY=your_firebase_api_key_for_channels
+     ```
+
+   - **Backend `.env` (SmartCampus-Backend):**
+
+     ```env
+     APP_NAME=SmartCampus
+     APP_ENV=local
+     APP_DEBUG=true
+     APP_URL=http://localhost:8000
+
+     MAIL_MAILER=smtp
+     MAIL_HOST=smtp.mailtrap.io
+     MAIL_PORT=2525
+     MAIL_USERNAME=your_mailtrap_username
+     MAIL_PASSWORD=your_mailtrap_password
+     MAIL_ENCRYPTION=tls
+     MAIL_FROM_ADDRESS=admin@smartcampus.com
+     MAIL_FROM_NAME="SmartCampus"
+
+     JWT_SECRET=your_jwt_secret
+     OPENAI_API_KEY=your_openai_api_key
+     ```
+
+   - **Chat `.env` (SmartCampus-Chat):**
+
+     ```env
+     VITE_API_KEY=your_firebase_api_key_for_chat
+     ```
+
+6. **Run the Applications:**
+
+   - **Frontend (Vite + React + TypeScript)**:
+
+     Navigate to `SmartCampus-Frontend` and run the development server:
+
+     ```bash
+     cd SmartCampus-Frontend
+     npm run dev
+     ```
+
+     The frontend will run on `http://localhost:3000`.
+
+   - **Chat App (React)**:
+
+     Navigate to `SmartCampus-Chat` and start the app:
+
+     ```bash
+     cd ../SmartCampus-Chat
+     npm run dev
+     ```
+
+     The chat will run on `http://localhost:3001`.
+
+   - **Backend (Laravel)**:
+
+     Start the Laravel server in `SmartCampus-Backend`:
+
+     ```bash
+     cd ../SmartCampus-Backend
+     php artisan serve
+     ```
+
+     The backend will run on `http://localhost:8000`.
+
+   - **Evaluation Service (FastAPI)**:
+
+     Navigate to `SmartCampus-Evaluation` and run the FastAPI server:
+
+     ```bash
+     cd ../SmartCampus-Evaluation
+     uvicorn main:app --reload --host 0.0.0.0 --port 5000
+     ```
+
+     The evaluation API will run on `http://localhost:5000`.
+
+---
+
+Now you should have the entire SmartCampus project running locally on your machine, with the following:
+
+- Frontend on `http://localhost:3000`
+- Chat App on `http://localhost:3001`
+- Backend API on `http://localhost:8000`
+- Evaluation Service on `http://localhost:5000`
+
+
