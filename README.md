@@ -73,24 +73,14 @@
 
 - Project Figma design [figma](https://www.figma.com/design/jsEC9MgbFvVbYnWYII3Gyu/SmartCampus?node-id=0-1&node-type=canvas&t=iTyTBVRnBjC7e2m9-0)
 
-
 ### Mockups
-<table>
-  <tr>
-    <th style="width: 50%; text-align: center;">Public Landing Page</th>
-    <th style="width: 50%; text-align: center;">Student Dashboard / Course Details</th>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src="./readme/assets/LandingPage.svg" alt="Landing" style="width: 100%; max-width: 500px;" />
-    </td>
-    <td style="text-align: center;">
-      <img src="./readme/assets/StudentDashboard.svg" alt="Student Dashboard" style="width: 100%; max-width: 500px;" />
-       <br /> <br /> <br />
-      <img src="./readme/assets/Course.svg" alt="Course Details" style="width: 100%; max-width: 500px;" /> 
-    </td>
-  </tr>
-</table>
+| Home screen  |
+| ---|
+| ![Landing](./readme/assets/LandingPage.svg) |
+
+| Student Dashboard  |
+| ---|
+| ![Dashboard](./readme/assets/StudentDashboard.svg) |
 
 <br><br>
 
@@ -100,7 +90,8 @@
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
 <img src="./readme/assets/SmartCampus_db.svg"/>
->The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for more details.
+
+The database is available in /readme/assets as png, pdf, svg, and MySQL code for more details.
 
 <br><br>
 
@@ -116,13 +107,18 @@
 
 | AI Generated Practice Questions  | AI Generated Major Suggestions |
 | ---| ---|
-| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Evaluation](./readme/assets/MajorSuggest.gif) |
-| ![Questions](./readme/assets/GenerateQuestions.png) | ![Evaluation](./readme/assets/MajorSuggest.png) |
+| ![Questions](./readme/assets/GenerateQuestions.gif) | ![Majors](./readme/assets/MajorSuggest.gif) |
+| ![Questions](./readme/assets/GenerateQuestions.png) | ![Majors](./readme/assets/MajorSuggest.png) |
 
 | Life On Campus Screen | AI Generated Course Suggestions |
 | ---| ---|
-| ![Instructor](./readme/assets/life.gif) | ![Evaluation](./readme/assets/CourseSuggest.gif) |
-| ![Instructor](./readme/assets/life.png) | ![Evaluation](./readme/assets/CourseSuggest.png) |
+| ![Life](./readme/assets/life.gif) | ![Courses](./readme/assets/CourseSuggest.gif) |
+| ![Life](./readme/assets/life.png) | ![Courses](./readme/assets/CourseSuggest.png) |
+
+| Chat Screen | Channel Screen |
+| ---| ---|
+| ![Chat](./readme/assets/chat.gif) | ![Channel](./readme/assets/channel.gif) |
+| ![Chat](./readme/assets/chat.png) | ![Channel](./readme/assets/channel.png) |
 
 <br><br>
 
@@ -158,30 +154,189 @@
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up **SmartCampus** locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [Python 3](https://www.python.org/)
+- [PHP](https://www.php.net/manual/en/install.php) (version 8.1 or higher)
+- [Composer](https://getcomposer.org/download/) for managing Laravel dependencies
+- [MySQL](https://dev.mysql.com/downloads/mysql/) for database management
+- [Mailtrap Account](https://mailtrap.io/) for email services during development
+- [Firebase Account](https://console.firebase.google.com/) for both the **Frontend** and **Chat** applications (you will need to create Firebase projects)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. **Clone the repository with submodules:**
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   ```bash
+   git clone --recurse-submodules https://github.com/hadigghazi/SmartCampus.git
+   cd SmartCampus
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+2. **Install dependencies:**
+
+   For each submodule, navigate to its directory and install the dependencies.
+
+   - Frontend (`SmartCampus-Frontend`):
+     ```bash
+     cd SmartCampus-Frontend
+     npm install
+     ```
+   - Chat App (`SmartCampus-Chat`):
+     ```bash
+     cd ../SmartCampus-Chat
+     npm install
+     ```
+   - Backend (`SmartCampus-Backend`):
+     ```bash
+     cd ../SmartCampus-Backend
+     composer install
+     ```
+   - Evaluation API (`SmartCampus-Evaluation`):
+     ```bash
+     cd ../SmartCampus-Evaluation/course-evaluation
+     pip install -r requirements.txt
+     ```
+
+3. **Firebase Setup:**
+
+   You will need to create two Firebase projects:
+
+   - One for the Frontend (SmartCampus-Frontend) to manage course channels.
+   - Another for the Chat App (SmartCampus-Chat) to handle chat functionality.
+
+   **Frontend Firebase Setup:**
+   - Go to [Firebase Console](https://console.firebase.google.com/), create a project, and set up the Firebase Realtime Database and Storage for course channels.
+   - Copy your Firebase API key and other necessary credentials into the `.env` file in `SmartCampus-Frontend`:
+
+     ```env
+     VITE_FIREBASE_KEY=your_firebase_api_key
+     ```
+
+   **Chat Firebase Setup:**
+   - Similarly, create a new project for the Chat App and configure Firebase to manage chat functionalities. In this case, Firebase authentication is used because the chat 
+    feature needs to be accessible even to users who are not authenticated within the system.
+   - Copy the Firebase API key into the `.env` file in `SmartCampus-Chat`:
+
+     ```env
+     VITE_API_KEY=your_firebase_chat_api_key
+     ```
+
+4. **Mailtrap Setup:**
+
+   For the announcements email functionality, you can use Mailtrap (used for development and testing):
+
+   - Create an account at [Mailtrap](https://mailtrap.io/).
+   - Copy the SMTP credentials and update the `.env` file in `SmartCampus-Backend`:
+
+     ```env
+     MAIL_MAILER=smtp
+     MAIL_HOST=smtp.mailtrap.io
+     MAIL_PORT=2525
+     MAIL_USERNAME=your_mailtrap_username
+     MAIL_PASSWORD=your_mailtrap_password
+     MAIL_ENCRYPTION=tls
+     MAIL_FROM_ADDRESS=admin@smartcampus.com
+     MAIL_FROM_NAME="SmartCampus"
+     ```
+
+5. **Configure Environment Files:**
+
+   Ensure that your `.env` files in both the frontend and backend have the correct URLs and API keys set up:
+
+   - **Frontend `.env` (SmartCampus-Frontend):**
+
+     ```env
+     VITE_BASE_URL=http://localhost:8000/api
+     VITE_CHAT_URL=http://localhost:3001
+     VITE_FAST_API_URL=http://localhost:5000
+     VITE_FIREBASE_KEY=your_firebase_api_key_for_channels
+     ```
+
+   - **Backend `.env` (SmartCampus-Backend):**
+
+     ```env
+     APP_NAME=SmartCampus
+     APP_ENV=local
+     APP_DEBUG=true
+     APP_URL=http://localhost:8000
+
+     MAIL_MAILER=smtp
+     MAIL_HOST=smtp.mailtrap.io
+     MAIL_PORT=2525
+     MAIL_USERNAME=your_mailtrap_username
+     MAIL_PASSWORD=your_mailtrap_password
+     MAIL_ENCRYPTION=tls
+     MAIL_FROM_ADDRESS=admin@smartcampus.com
+     MAIL_FROM_NAME="SmartCampus"
+
+     JWT_SECRET=your_jwt_secret
+     OPENAI_API_KEY=your_openai_api_key
+     ```
+
+   - **Chat `.env` (SmartCampus-Chat):**
+
+     ```env
+     VITE_API_KEY=your_firebase_api_key_for_chat
+     ```
+
+6. **Run the Applications:**
+
+   - **Frontend (Vite + React + TypeScript)**:
+
+     Navigate to `SmartCampus-Frontend` and run the development server:
+
+     ```bash
+     cd SmartCampus-Frontend
+     npm run dev
+     ```
+
+     The frontend will run on `http://localhost:3000`.
+
+   - **Chat App (React)**:
+
+     Navigate to `SmartCampus-Chat` and start the app:
+
+     ```bash
+     cd ../SmartCampus-Chat
+     npm run dev
+     ```
+
+     The chat will run on `http://localhost:3001`.
+
+   - **Backend (Laravel)**:
+
+     Start the Laravel server in `SmartCampus-Backend`:
+
+     ```bash
+     cd ../SmartCampus-Backend
+     php artisan serve
+     ```
+
+     The backend will run on `http://localhost:8000`.
+
+   - **Evaluation Service (FastAPI)**:
+
+     Navigate to `SmartCampus-Evaluation/course-evaluation` and run the FastAPI server:
+
+     ```bash
+     cd ../SmartCampus-Evaluation/course-evaluation
+     uvicorn main:app --reload --host 0.0.0.0 --port 5000
+     ```
+
+     The evaluation API will run on `http://localhost:5000`.
+
+---
+
+Now you should have the entire SmartCampus project running locally on your machine, with the following:
+
+- Frontend on `http://localhost:3000`
+- Chat App on `http://localhost:3001`
+- Backend API on `http://localhost:8000`
+- Evaluation Service on `http://localhost:5000`
+
+
