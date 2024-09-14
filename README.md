@@ -130,12 +130,27 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 
 - This project leverages advanced AI capabilities through the OpenAI API and machine learning technologies to enhance user interactions and experiences. We integrate AI-driven features to provide personalized course and major recommendations, generate practice questions from course materials, and offer support through an interactive 3D AI instructor. Additionally, machine learning is employed to assess course success based on evaluations, visualize data with graphs, and provide comprehensive analysis through detailed reports. These innovations ensure a tailored and engaging educational experience, optimizing learning, decision-making processes, and performance insights.
 
-<img src="./readme/assets/analysis1OpenAI.jpg"/>
-<img src="./readme/assets/analysis2OpenAI.jpg"/>
-<img src="./readme/assets/coursesOpenAI.jpg"/>
-<img src="./readme/assets/instructorOpenAI.jpg"/>
-<img src="./readme/assets/majorOpenAI.jpg"/>
-<img src="./readme/assets/practiceOpenAI.jpg"/>
+#### Course Evaluation Analysis with OpenAI
+
+<img src="./readme/assets/analysis1OpenAI.jpg" alt="Analysis 1 with OpenAI"/>
+<img src="./readme/assets/analysis2OpenAI.jpg" alt="Analysis 2 with OpenAI"/>
+
+#### Suggest Courses with OpenAI
+
+<img src="./readme/assets/coursesOpenAI.jpg" alt="Courses with OpenAI"/>
+
+#### Instructor with OpenAI
+
+<img src="./readme/assets/instructorOpenAI.jpg" alt="Instructor with OpenAI"/>
+
+#### Suggest Major with OpenAI
+
+<img src="./readme/assets/majorOpenAI.jpg" alt="Major with OpenAI"/>
+
+#### Practice Questions with OpenAI
+
+<img src="./readme/assets/practiceOpenAI.jpg" alt="Practice with OpenAI"/>
+
 
 <br><br>
 
