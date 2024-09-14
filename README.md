@@ -130,6 +130,13 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 
 - This project leverages advanced AI capabilities through the OpenAI API and machine learning technologies to enhance user interactions and experiences. We integrate AI-driven features to provide personalized course and major recommendations, generate practice questions from course materials, and offer support through an interactive 3D AI instructor. Additionally, machine learning is employed to assess course success based on evaluations, visualize data with graphs, and provide comprehensive analysis through detailed reports. These innovations ensure a tailored and engaging educational experience, optimizing learning, decision-making processes, and performance insights.
 
+<img src="./readme/assets/analysis1OpenAI.jpg"/>
+<img src="./readme/assets/analysis2OpenAI.jpg"/>
+<img src="./readme/assets/coursesOpenAI.jpg"/>
+<img src="./readme/assets/instructorOpenAI.jpg"/>
+<img src="./readme/assets/majorOpenAI.jpg"/>
+<img src="./readme/assets/practiceOpenAI.jpg"/>
+
 <br><br>
 
 <!-- AWS Deployment -->
