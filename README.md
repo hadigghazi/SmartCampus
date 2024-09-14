@@ -100,7 +100,7 @@
 ###  Architecting Data Excellence: Innovative Database Design Strategies:
 
 <img src="./readme/assets/SmartCampus_db.svg"/>
->The database is avilable in /readme/assets as png, pdf, svg, and MySQL code for more details.
+> The database is available in /readme/assets as png, pdf, svg, and MySQL code for more details.
 
 <br><br>
 
@@ -227,7 +227,7 @@ Ensure you have the following installed on your machine:
      ```
 
    **Chat Firebase Setup:**
-   - Similarly, create a new project for the Chat App and configure Firebase to manage chat functionalities. In this case, Firebase authentication is used because chat 
+   - Similarly, create a new project for the Chat App and configure Firebase to manage chat functionalities. In this case, Firebase authentication is used because the chat 
     feature needs to be accessible even to users who are not authenticated within the system.
    - Copy the Firebase API key into the `.env` file in `SmartCampus-Chat`:
 
@@ -330,10 +330,10 @@ Ensure you have the following installed on your machine:
 
    - **Evaluation Service (FastAPI)**:
 
-     Navigate to `SmartCampus-Evaluation` and run the FastAPI server:
+     Navigate to `SmartCampus-Evaluation/course-evaluation` and run the FastAPI server:
 
      ```bash
-     cd ../SmartCampus-Evaluation
+     cd ../SmartCampus-Evaluation/course-evaluation
      uvicorn main:app --reload --host 0.0.0.0 --port 5000
      ```
 
