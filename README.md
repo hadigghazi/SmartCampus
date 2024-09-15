@@ -169,6 +169,10 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
 - This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+#### Sample From The Tests:
+<img src="./readme/assets/unit8.png" alt="unit test"/>
+<img src="./readme/assets/unit9.png" alt="unit test"/>
+<img src="./readme/assets/uni10.png" alt="unit test"/>
 
 <br><br>
 
