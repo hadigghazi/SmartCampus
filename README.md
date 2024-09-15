@@ -120,6 +120,10 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 | ![Chat](./readme/assets/chat.gif) | ![Channel](./readme/assets/channel.gif) |
 | ![Chat](./readme/assets/chat.png) | ![Channel](./readme/assets/channel.png) |
 
+| Some Public Pages | Channel Screen |
+| ---| ---|
+| ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/channel.gif) |
+
 <br><br>
 
 
