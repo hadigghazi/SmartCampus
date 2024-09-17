@@ -99,7 +99,6 @@
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
-### Student Screens
 | 3D AI Instructor Screen  | AI/ML Course Evaluation Report |
 | ---| ---|
 | ![Instructor](./readme/assets/3DInstructor.gif) | ![Evaluation](./readme/assets/MLReport.gif) |
@@ -124,6 +123,9 @@
 | ---| ---|
 | ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 
+| Some Instructor Pages | Some Student Pages |
+| ---| ---|
+| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 <br><br>
 
 
