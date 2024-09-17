@@ -123,9 +123,13 @@
 | ---| ---|
 | ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 
-| Some Instructor Pages | Some Student Pages |
+| Some Instructor Pages | Some Admin Pages 1 |
 | ---| ---|
-| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/StudentPages.gif) |
+| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/AdminPages.gif) |
+
+| Some Admin Pages 2 | Some Admin Pages 3 |
+| ---| ---|
+| ![Public](./readme/assets/AdminPages2.gif) | ![Channel](./readme/assets/AdminPages3.gif) |
 <br><br>
 
 
