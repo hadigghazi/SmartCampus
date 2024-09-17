@@ -91,7 +91,7 @@
 
 <img src="./readme/assets/SmartCampus_db.svg"/>
 
-The database is available in /readme/assets as png, pdf, svg, and MySQL code for more details.
+#### The database is available in /readme/assets as png, pdf, svg, and MySQL code for more details.
 
 <br><br>
 
@@ -138,10 +138,13 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 
 <img src="./readme/assets/analysis1OpenAI.jpg" alt="Analysis 1 with OpenAI"/>
 <img src="./readme/assets/analysis2OpenAI.jpg" alt="Analysis 2 with OpenAI"/>
+<img src="./readme/assets/analysis3OpenAI.jpg" alt="Analysis 3 with OpenAI"/>
+<img src="./readme/assets/analysis4OpenAI.jpg" alt="Analysis 4 with OpenAI"/>
 
 #### Suggest Courses with OpenAI
 
-<img src="./readme/assets/coursesOpenAI.jpg" alt="Courses with OpenAI"/>
+<img src="./readme/assets/courses1OpenAI.jpg" alt="Courses with OpenAI"/>
+<img src="./readme/assets/courses2OpenAI.jpg" alt="Courses with OpenAI"/>
 
 #### Instructor with OpenAI
 
