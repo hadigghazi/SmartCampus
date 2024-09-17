@@ -24,7 +24,7 @@
 3. As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.
 
 ### Admin
-1. As an admin, I want to manage student and instructor accounts, including handling course registrations, so that I can ensure accurate and up-to-date information in the system.
+1. As an admin, I want to manage student and instructor accounts, including handling students and careers applications, so that I can ensure accurate and up-to-date information in the system.
 
 2. As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.
 
