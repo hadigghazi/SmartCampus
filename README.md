@@ -143,8 +143,8 @@
 
 #### Suggest Courses with OpenAI
 
-<img src="./readme/assets/courses1OpenAI.jpg" alt="Courses with OpenAI"/>
-<img src="./readme/assets/courses2OpenAI.jpg" alt="Courses with OpenAI"/>
+<img src="./readme/assets/coursesOpenAI1.jpg" alt="Courses with OpenAI"/>
+<img src="./readme/assets/coursesOpenAI2.jpg" alt="Courses with OpenAI"/>
 
 #### Instructor with OpenAI
 
