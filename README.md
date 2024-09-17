@@ -120,9 +120,9 @@
 | ![Chat](./readme/assets/chat.gif) | ![Channel](./readme/assets/channel.gif) |
 | ![Chat](./readme/assets/chat.png) | ![Channel](./readme/assets/channel.png) |
 
-| Some Public Pages | Channel Screen |
+| Some Public Pages | Some Student Pages |
 | ---| ---|
-| ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/channel.gif) |
+| ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 
 <br><br>
 
