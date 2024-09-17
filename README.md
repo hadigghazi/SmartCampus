@@ -10,39 +10,39 @@
 ## User Stories
 
 ### Student
-1. *As a student, I want to access my course schedule, materials, assignments, grades, exams, academic history, and fees in one place so that I can stay organized and efficiently manage my academic responsibilities.*
+1. As a student, I want to access my course schedule, materials, assignments, grades, exams, academic history, and fees in one place so that I can stay organized and efficiently manage my academic responsibilities.
 
-2. *As a student, I want to interact with a 3D AI instructor for personalized study assistance and receive AI-driven recommendations for courses and AI-generated practice questions to optimize my learning experience.*
+2. As a student, I want to interact with a 3D AI instructor for personalized study assistance and receive AI-driven recommendations for courses and AI-generated practice questions to optimize my learning experience.
 
-3. *As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.*
+3. As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.
 
 ### Instructor
-1. *As an instructor, I want to create, manage, and grade course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.*
+1. As an instructor, I want to create, manage, and grade course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.
 
-2. *As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.*
+2. As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.
 
-3. *As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.*
+3. As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.
 
 ### Admin
-1. *As an admin, I want to manage student and instructor accounts, including handling course registrations, so that I can ensure accurate and up-to-date information in the system.*
+1. As an admin, I want to manage student and instructor accounts, including handling course registrations, so that I can ensure accurate and up-to-date information in the system.
 
-2. *As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.*
+2. As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.
 
-3. *As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.*
+3. As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.
 
 ### Super Admin
-1. *As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses, as well as managing admin accounts, salaries, and global payment policies, so that I can maintain and optimize the university’s structure and ensure efficient operations.*
+1. As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses, as well as managing admin accounts, salaries, and global payment policies, so that I can maintain and optimize the university’s structure and ensure efficient operations.
 
-2. *As a super admin, I want to oversee instructor payroll and publish important news and announcements across the platform and via email, targeted by the recipient's role, to keep all users informed of critical updates and ensure smooth payroll management.*
+2. As a super admin, I want to oversee instructor payroll and publish important news and announcements across the platform and via email, targeted by the recipient's role, to keep all users informed of critical updates and ensure smooth payroll management.
 
-3. *As a super admin, I want to generate detailed reports using machine learning and AI for comprehensive analysis of course evaluations, and be able to download these reports as PDFs to provide insights on course success and other performance metrics. [Example PDF](./readme/assets/CS107_Database%20Systems_JohnA.Doe.pdf)*
+3. As a super admin, I want to generate detailed reports using machine learning and AI for comprehensive analysis of course evaluations, and be able to download these reports as PDFs to provide insights on course success and other performance metrics. [Example PDF](./readme/assets/CS107_Database%20Systems_JohnA.Doe.pdf)
 
 ### Prospective Student
-1. *As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.*
+1. As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.
 
-2. *As a prospective student, I want to apply for admission, submit necessary information online, and receive support through chat with student affairs so that I can manage the application process and get answers to any questions.*
+2. As a prospective student, I want to apply for admission, submit necessary information online, and receive support through chat with student affairs so that I can manage the application process and get answers to any questions.
 
-3. *As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.*
+3. As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.
 
    
 <br><br>
@@ -119,6 +119,10 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 | ---| ---|
 | ![Chat](./readme/assets/chat.gif) | ![Channel](./readme/assets/channel.gif) |
 | ![Chat](./readme/assets/chat.png) | ![Channel](./readme/assets/channel.png) |
+
+| Some Public Pages | Channel Screen |
+| ---| ---|
+| ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/channel.gif) |
 
 <br><br>
 
