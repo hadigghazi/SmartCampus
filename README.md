@@ -16,7 +16,7 @@
 
 3. As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.
 
-### Instructor 
+### Instructor
 1. As an instructor, I want to create, manage, and grade course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.
 
 2. As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.
