@@ -161,9 +161,11 @@ The database is available in /readme/assets as png, pdf, svg, and MySQL code for
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+### Efficient Web Application Deployment: Harnessing AWS for Laravel and MySQL Hosting
 
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project utilizes AWS EC2 instances to host a Laravel-based web application with a MySQL database. By leveraging the scalability and reliability of AWS, we ensure seamless deployment and performance for the web application. The setup is designed to handle dynamic workloads efficiently while providing a robust backend for real-time data processing and user management. Our deployment strategy ensures secure, high-performance access to the application, with automatic scaling to meet user demand, all while maintaining cost-effectiveness and flexibility.
+  
+<img src="./readme/assets/aws.jpg" alt="aws"/>
 
 <br><br>
 
