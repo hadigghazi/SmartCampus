@@ -124,6 +124,9 @@
 | ---| ---|
 | ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 
+| Some Instructor Pages | Some Student Pages |
+| ---| ---|
+| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 <br><br>
 
 
