@@ -129,7 +129,7 @@
 
 | Some Admin Pages 2 | Some Admin Pages 3 |
 | ---| ---|
-| ![Public](./readme/assets/AdminPages2.gif) | ![Channel](./readme/assets/AdminPages3.gif) |
+| ![Public](./readme/assets/AdminPages1.gif) | ![Channel](./readme/assets/AdminPages2.gif) |
 <br><br>
 
 
