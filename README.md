@@ -208,8 +208,8 @@ Ensure you have the following installed on your machine:
 - [PHP](https://www.php.net/manual/en/install.php) (version 8.1 or higher)
 - [Composer](https://getcomposer.org/download/) for managing Laravel dependencies
 - [MySQL](https://dev.mysql.com/downloads/mysql/) for database management
-- [Mailtrap Account](https://mailtrap.io/) for email services during development
-- [Firebase Account](https://console.firebase.google.com/) for both the **Frontend** and **Chat** applications (you will need to create Firebase projects)
+- [Mailtrap Account](https://mailtrap.io/) for email services during development (Optional)
+- [Firebase Account](https://console.firebase.google.com/) for both the **Frontend** and **Chat** applications, you will need to create Firebase projects (Optional)
 
 ---
 
@@ -364,7 +364,7 @@ Ensure you have the following installed on your machine:
      DB_HOST=127.0.0.1
      DB_PORT=3306
      DB_DATABASE=smart_campus_db
-     DB_USERNAME=root
+     DB_USERNAME=your_mysql_username
      DB_PASSWORD=your_mysql_password
      ```
 
