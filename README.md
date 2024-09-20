@@ -211,6 +211,8 @@ Ensure you have the following installed on your machine:
 - [Mailtrap Account](https://mailtrap.io/) for email services during development
 - [Firebase Account](https://console.firebase.google.com/) for both the **Frontend** and **Chat** applications (you will need to create Firebase projects)
 
+---
+
 ### Installation
 
 1. **Clone the repository with submodules:**
@@ -238,14 +240,52 @@ Ensure you have the following installed on your machine:
      ```bash
      cd ../SmartCampus-Backend
      composer install
+     php artisan jwt:secret # To generate `JWT_SECRET` in your `.env` file
      ```
    - Evaluation API (`SmartCampus-Evaluation`):
      ```bash
-     cd ../SmartCampus-Evaluation/course-evaluation
+     cd ../SmartCampus-Evaluation
+     python -m venv course_eval_env
+     source course_eval_env/bin/activate # Activate environment (MacOS, Linux) 
+     .\course_eval_env\Scripts\activate # Activate environment (Windows) 
+     cd course-evaluation
      pip install -r requirements.txt
      ```
 
-3. **Firebase Setup:**
+3. **MySQL Database Setup:**
+
+   - Ensure that MySQL is installed and running on your system.
+   - Create a new MySQL database by logging into your MySQL server:
+     ```bash
+     mysql -u root -p
+     CREATE DATABASE smart_campus_db;
+     ```
+   - Update your `.env` file in the `SmartCampus-Backend` directory with the following MySQL configuration:
+
+     ```env
+     DB_CONNECTION=mysql
+     DB_HOST=127.0.0.1
+     DB_PORT=3306
+     DB_DATABASE=smart_campus_db
+     DB_USERNAME=your_mysql_username
+     DB_PASSWORD=your_mysql_password
+     ```
+     
+   - Update your `main.py` file in the `SmartCampus-Evaluations/course-evaluation` directory with the following MySQL configuration:
+
+     ```bash
+     DATABASE_URL = "mysql+pymysql://your_mysql_username:your_mysql_password@localhost/smart_campus_db"
+     ```
+     
+   To create the database locally, you can either:
+   
+   - **Import the `smart_campus_db.sql` file** provided in the `/readme/assets` directory, which contains the full exported database.
+   
+   - **Run the contents of the `SmartCampus_db.sql` file**, which is also available in the `/readme/assets` directory and contains the SQL queries to create the database tables and set up relationships.
+   
+   Choose the method that works best for you to ensure the `smart_campus_db` database is available locally with the required tables.
+
+4. **Firebase Setup (Optional, only if you want to run the chatting functionalities):**
 
    You will need to create two Firebase projects:
 
@@ -269,7 +309,7 @@ Ensure you have the following installed on your machine:
      VITE_API_KEY=your_firebase_chat_api_key
      ```
 
-4. **Mailtrap Setup:**
+5. **Mailtrap Setup (Optional, only if you want to enable the email functionality):**
 
    For the announcements email functionality, you can use Mailtrap (used for development and testing):
 
@@ -287,7 +327,7 @@ Ensure you have the following installed on your machine:
      MAIL_FROM_NAME="SmartCampus"
      ```
 
-5. **Configure Environment Files:**
+6. **Configure Environment Files:**
 
    Ensure that your `.env` files in both the frontend and backend have the correct URLs and API keys set up:
 
@@ -319,6 +359,13 @@ Ensure you have the following installed on your machine:
 
      JWT_SECRET=your_jwt_secret
      OPENAI_API_KEY=your_openai_api_key
+     
+     DB_CONNECTION=mysql
+     DB_HOST=127.0.0.1
+     DB_PORT=3306
+     DB_DATABASE=smart_campus_db
+     DB_USERNAME=root
+     DB_PASSWORD=your_mysql_password
      ```
 
    - **Chat `.env` (SmartCampus-Chat):**
@@ -327,7 +374,7 @@ Ensure you have the following installed on your machine:
      VITE_API_KEY=your_firebase_api_key_for_chat
      ```
 
-6. **Run the Applications:**
+7. **Run the Applications:**
 
    - **Frontend (Vite + React + TypeScript)**:
 
@@ -381,5 +428,3 @@ Now you should have the entire SmartCampus project running locally on your machi
 - Chat App on `http://localhost:3001`
 - Backend API on `http://localhost:8000`
 - Evaluation Service on `http://localhost:5000`
-
-
