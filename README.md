@@ -63,6 +63,8 @@
 - **[FastAPI](https://fastapi.tiangolo.com/)**: A modern web framework used with Python to create endpoints for interacting with the machine learning model.
 - **[scikit-learn](https://scikit-learn.org/stable/)**: Utilized for machine learning tasks, including model training and predictions.
 - **[Matplotlib](https://matplotlib.org/)**: Employed for data visualization, providing graphical representations of analysis results.
+- **[Docker](https://www.docker.com/)**: The front-end and back-end services are containerized using Docker Compose.
+- **[Amazon EC2](https://aws.amazon.com/ec2/)**: The Laravel project and MySQL database are hosted on an Amazon EC2 instance for scalable, cloud-based infrastructure.
 
 <br><br>
 <!-- UI UX -->
@@ -123,9 +125,13 @@
 | ---| ---|
 | ![Public](./readme/assets/public.gif) | ![Channel](./readme/assets/StudentPages.gif) |
 
-| Some Instructor Pages | Some Student Pages |
+| Some Instructor Pages | Some Admin Pages 1 |
 | ---| ---|
-| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/StudentPages.gif) |
+| ![Public](./readme/assets/InstructorPages.gif) | ![Channel](./readme/assets/AdminPages.gif) |
+
+| Some Admin Pages 2 | Some Admin Pages 3 |
+| ---| ---|
+| ![Public](./readme/assets/AdminPages1.gif) | ![Channel](./readme/assets/AdminPages2.gif) |
 <br><br>
 
 
