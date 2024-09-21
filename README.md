@@ -5,44 +5,44 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
->SmartCampus is a robust, all-in-one university system designed to revolutionize student administration and enhance the learning experience. With a comprehensive suite of features, it seamlessly handles everything from student information and payments to course management, grading, and learning resources. The platform’s cutting-edge AI capabilities offer personalized experiences, such as tailored major and course recommendations, an interactive 3D AI instructor, and intelligent content generation. SmartCampus also integrates machine learning to assess course success based on student evaluations, providing visual insights through detailed graphs, and utilizes AI to deliver comprehensive analysis of these results. The platform fosters engagement through integrated communication tools, including dedicated course channels and live chats, creating a dynamic and efficient environment for students, instructors, and administrators alike.
+>SmartCampus is a complete and comprehensive university system that streamlines administration and enhances learning with advanced AI and machine learning. It manages everything from student data and payments to course management and grading. With personalized recommendations, an AI-powered 3D instructor, and real-time insights from student evaluations, it fosters continuous improvement. Robust communication tools ensure seamless interaction between students, instructors, and administrators, creating a dynamic and efficient educational environment.
 
 ## User Stories
 
 ### Student
-1. As a student, I want to access my course schedule, materials, assignments, grades, exams, academic history, and fees in one place so that I can stay organized and efficiently manage my academic responsibilities.
+* As a student, I want to access my course schedule, materials, assignments, grades, exams, academic history, and fees in one place so that I can stay organized and efficiently manage my academic responsibilities.
 
-2. As a student, I want to interact with a 3D AI instructor for personalized study assistance and receive AI-driven recommendations for courses and AI-generated practice questions to optimize my learning experience.
+* As a student, I want to interact with a 3D AI instructor for personalized study assistance and receive AI-driven recommendations for courses and AI-generated practice questions to optimize my learning experience.
 
-3. As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.
+* As a student, I want to engage with instructors and peers through dedicated course channels for discussions, updates, and collaboration, ensuring effective communication and support throughout the semester.
 
 ### Instructor
-1. As an instructor, I want to create, manage, and grade course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.
+* As an instructor, I want to create and manage course content, and assignments, and allow students to submit their work through the system so that I can effectively evaluate performance and streamline the grading process.
 
-2. As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.
+* As an instructor, I want to access my assigned courses and view my teaching history, including past courses, so that I can manage my academic responsibilities.
 
-3. As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.
+* As an instructor, I want to communicate with students through dedicated course channels for discussions, updates, and answering questions, ensuring clear communication and ongoing support throughout the course.
 
 ### Admin
-1. As an admin, I want to manage student and instructor accounts, including handling students and careers applications, so that I can ensure accurate and up-to-date information in the system.
+* As an admin, I want to manage student and instructor accounts, including handling students and careers applications, so that I can ensure accurate and up-to-date information in the system.
 
-2. As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.
+* As an admin, I want to process payments and manage student financial records, as well as oversee instructor payroll, to ensure smooth financial operations.
 
-3. As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.
+* As an admin, I want to manage university logistics such as transportation, dormitories, exams, and library access to ensure that all student services operate efficiently.
 
 ### Super Admin
-1. As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses, as well as managing admin accounts, salaries, and global payment policies, so that I can maintain and optimize the university’s structure and ensure efficient operations.
+* As a super admin, I want to manage higher-level tasks such as overseeing faculties, campuses, majors, and courses, as well as managing admin accounts, salaries, and global payment policies, so that I can maintain and optimize the university’s structure and ensure efficient operations.
 
-2. As a super admin, I want to oversee instructor payroll and publish important news and announcements across the platform and via email, targeted by the recipient's role, to keep all users informed of critical updates and ensure smooth payroll management.
+* As a super admin, I want to oversee instructor payroll and publish important news and announcements across the platform and via email, targeted by the recipient's role, to keep all users informed of critical updates and ensure smooth payroll management.
 
-3. As a super admin, I want to generate detailed reports using machine learning and AI for comprehensive analysis of course evaluations, and be able to download these reports as PDFs to provide insights on course success and other performance metrics. [Example PDF](./readme/assets/CS107_Database%20Systems_JohnA.Doe.pdf)
+* As a super admin, I want to generate detailed reports using machine learning and AI for comprehensive analysis of course evaluations, and be able to download these reports as PDFs to provide insights on course success and other performance metrics. [Example PDF](./readme/assets/CS107_Database%20Systems_JohnA.Doe.pdf)
 
 ### Prospective Student
-1. As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.
+* As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.
 
-2. As a prospective student, I want to apply for admission, submit necessary information online, and receive support through chat with student affairs so that I can manage the application process and get answers to any questions.
+* As a prospective student, I want to apply for admission, submit necessary information online, and receive support through chat with student affairs so that I can manage the application process and get answers to any questions.
 
-3. As a prospective student, I want to use AI-driven recommendations to choose a major that aligns with my preferences and career goals so that I can select a field of study that best fits my interests.
+* As a prospective student, I want to explore detailed information about courses and programs offered by the university so that I can make an informed decision about my educational path.
 
    
 <br><br>
